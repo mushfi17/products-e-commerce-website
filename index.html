@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products E-Commerce Website</title>
+    
+    <!----------------------------------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!------------------------------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+
+        <div class="header1">
+            <a href="#" class="logo"><i class="fa solid fa-shopping-bag"></i> Shopping</a>
+
+            <div class="form-container">
+                <form action="">
+                    <input type="search" placeholder="search products" id="search">
+                    <label for="search" class="fas fa-search"></label>
+                </form>
+            </div>
+            <div class="header-top-actions flex">
+                <select name="currency">
+                    <option value="usd">USD &dollar;</option>
+                    <option value="eur">EUR &euro;</option>
+                    
+                </select>
+                <select name="language">
+                    <option value="en-US">English</option>
+                    <option value="es-ES">Espa&ntilde;ol</option>
+                    <option value="fr">Fran&ccedil;ais</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="header2">
+
+            <div id="menu" class="fas fa-bars"></div>
+            <nav class="navbar">
+
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#arrival">Arrival</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#deal">Deal</a></li>
+                </ul>
+
+            </nav>
+
+            <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-user"></a>
+            </div>
+        </div>
+    </header>
+
+    <!--------------------------------------->
+
+    <section class="home" id="home">
+
+        <div class="home-slider owl-carousel">
+
+            <div class="item">
+                <img src="images/home_img1.jpg">
+                <div class="content">
+                    <h3>Heavy Discounts</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><button class="btn">Discover</button></a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/home_img2.jpg">
+                <div class="content">
+                    <h3>Latest Gadgets</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><button class="btn">Discover</button></a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/home_img3.jpg">
+                <div class="content">
+                    <h3>Trending Shoes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><button class="btn">Discover</button></a>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/home_img4.jpg">
+                <div class="content">
+                    <h3>Fresh Groceries</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#"><button class="btn">Discover</button></a>
+                </div>
+            </div>
+
+
+        </div>
+        
+    </section>
+
+    <!-------------------------------------------------->
+
+    <section class="arrival" id="arrival">
+        <h1 class="heading"><span>New Arrivals</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/arr_img1.jpg">
+                </div>
+                <div class="info">
+                    <h3>smart tv</h3>
+                    <div class="subInfo">
+                        <strong class="price"> $2000 <span>$3000</span></strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <a href="#" style="--i:1;" class="fas fa-heart"></a>
+                    <a href="#" style="--i:2;" class="fas fa-shopping-cart"></a>
+                    <a href="#" style="--i:3;" class="fas fa-search"></a>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/arr_img2.jpg">
+                </div>
+                <div class="info">
+                    <h3>game console</h3>
+                    <div class="subInfo">
+                        <strong class="price"> $1500 <span>$2000</span></strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <a href="#" style="--i:1;" class="fas fa-heart"></a>
+                    <a href="#" style="--i:2;" class="fas fa-shopping-cart"></a>
+                    <a href="#" style="--i:3;" class="fas fa-search"></a>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/arr_img3.jpg">
+                </div>
+                <div class="info">
+                    <h3>latest shoes</h3>
+                    <div class="subInfo">
+                        <strong class="price"> $800 <span>$1000</span></strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <a href="#" style="--i:1;" class="fas fa-heart"></a>
+                    <a href="#" style="--i:2;" class="fas fa-shopping-cart"></a>
+                    <a href="#" style="--i:3;" class="fas fa-search"></a>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/arr_img4.jpg">
+                </div>
+                <div class="info">
+                    <h3>smart phone</h3>
+                    <div class="subInfo">
+                        <strong class="price"> $1200 <span>$1500</span></strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <a href="#" style="--i:1;" class="fas fa-heart"></a>
+                    <a href="#" style="--i:2;" class="fas fa-shopping-cart"></a>
+                    <a href="#" style="--i:3;" class="fas fa-search"></a>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/arr_img5.jpg">
+                </div>
+                <div class="info">
+                    <h3>branded t-shirts</h3>
+                    <div class="subInfo">
+                        <strong class="price"> $300 <span>$500</span></strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <a href="#" style="--i:1;" class="fas fa-heart"></a>
+                    <a href="#" style="--i:2;" class="fas fa-shopping-cart"></a>
+                    <a href="#" style="--i:3;" class="fas fa-search"></a>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <div class="image">
+                    <img src="images/arr_img6.jpg">
+                </div>
+                <div class="info">
+                    <h3>amazing speakers</h3>
+                    <div class="subInfo">
+                        <strong class="price"> $2000 <span>$3000</span></strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <a href="#" style="--i:1;" class="fas fa-heart"></a>
+                    <a href="#" style="--i:2;" class="fas fa-shopping-cart"></a>
+                    <a href="#" style="--i:3;" class="fas fa-search"></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!--------------------------------------------------------->
+
+    <section class="featured" id="featured">
+        <h1 class="heading"><span>Featured Products</span></h1>
+
+        <div class="row">
+            <div class="image-container">
+                <div class="big-image">
+                    <img src="images/watch01.png">
+                </div>
+                <div class="small-image">
+                    <img class="image-active" src="images/watch01.png">
+                    <img src="images/watch1.jpg">
+                    <img src="images/watch2.jpg">
+                    <img src="images/watch3.jpg">
+                    <img src="images/watch4.jpg">
+                </div>
+            </div>
+
+            <div class="content">
+                <h3>Smart Watch</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span>(500+) reviews</span>
+                </div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum, pariatur!</p>
+                <strong class="price">$1500 <span>$2800</span></strong>
+                <a href="#"><button class="btn">Buy Now</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------------------------->
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading"><span>Products Gallery</span></h1>
+        <ul class="controls">
+            <li class="list active" data-filter="all">All</li>
+            <li class="list" data-filter="desktop">Desktop</li>
+            <li class="list" data-filter="laptop">Laptop</li>
+            <li class="list" data-filter="mobile">Mobile</li>
+            <li class="list" data-filter="tablet">Tablet</li>
+            <li class="list" data-filter="watch">Watch</li>
+        </ul>
+
+        <div class="image-container">
+
+            <div class="product">
+            <div class="itembox" data-item="desktop"><img src="images/desk1.jpg">
+                <div class="info">
+                    <h3>Desktop</h3>
+                    <div class="subInfo">
+                        <strong class="price">$2000</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="laptop"><img src="images/lap1.jpg">
+                <div class="info">
+                    <h3>Laptop</h3>
+                    <div class="subInfo">
+                        <strong class="price">$3000</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="mobile"><img src="images/mob1.jpg">
+                <div class="info">
+                    <h3>SmartPhone</h3>
+                    <div class="subInfo">
+                        <strong class="price">$900</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="tablet"><img src="images/tab1.jpg">
+                <div class="info">
+                    <h3>Tablet</h3>
+                    <div class="subInfo">
+                        <strong class="price">$1200</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="watch"><img src="images/watc1.jpg">
+                <div class="info">
+                    <h3>Watch</h3>
+                    <div class="subInfo">
+                        <strong class="price">$1000</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="desktop"><img src="images/desk2.jpg">
+                <div class="info">
+                    <h3>Desktop</h3>
+                    <div class="subInfo">
+                        <strong class="price">$2000</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="laptop"><img src="images/lap2.jpg">
+                <div class="info">
+                    <h3>Laptop</h3>
+                    <div class="subInfo">
+                        <strong class="price">$3000</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="mobile"><img src="images/mob2.jpg">
+                <div class="info">
+                    <h3>SmartPhone</h3>
+                    <div class="subInfo">
+                        <strong class="price">$900</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="tablet"><img src="images/tab2.jpg">
+                <div class="info">
+                    <h3>Tablet</h3>
+                    <div class="subInfo">
+                        <strong class="price">$1200</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="watch"><img src="images/watc2.jpg">
+                <div class="info">
+                    <h3>Watch</h3>
+                    <div class="subInfo">
+                        <strong class="price">$1200</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="desktop"><img src="images/desk3.jpg">
+                <div class="info">
+                    <h3>Desktop</h3>
+                    <div class="subInfo">
+                        <strong class="price">$2000</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="laptop"><img src="images/lap3.jpg">
+                <div class="info">
+                    <h3>Laptop</h3>
+                    <div class="subInfo">
+                        <strong class="price">$3000</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="mobile"><img src="images/mob3.jpg">
+                <div class="info">
+                    <h3>SmartPhone</h3>
+                    <div class="subInfo">
+                        <strong class="price">$900</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="tablet"><img src="images/tab3.jpg">
+                <div class="info">
+                    <h3>Tablet</h3>
+                    <div class="subInfo">
+                        <strong class="price">$1200</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="watch"><img src="images/watc3.jpg">
+                <div class="info">
+                    <h3>Watch</h3>
+                    <div class="subInfo">
+                        <strong class="price">$1200</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="desktop"><img src="images/desk4.jpg">
+                <div class="info">
+                    <h3>Desktop</h3>
+                    <div class="subInfo">
+                        <strong class="price">$2000</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="laptop"><img src="images/lap4.jpg">
+                <div class="info">
+                    <h3>Laptop</h3>
+                    <div class="subInfo">
+                        <strong class="price">$3000</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="mobile"><img src="images/mob4.jpg">
+                <div class="info">
+                    <h3>SmartPhone</h3>
+                    <div class="subInfo">
+                        <strong class="price">$900</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="tablet"><img src="images/tab2.jpg">
+                <div class="info">
+                    <h3>Tablet</h3>
+                    <div class="subInfo">
+                        <strong class="price">$1200</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itembox" data-item="watch"><img src="images/watc4.jpg">
+                <div class="info">
+                    <h3>Watch</h3>
+                    <div class="subInfo">
+                        <strong class="price">$1200</strong>
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+            
+        </div>
+        
+    </section>
+    
+    <script>
+        let list = document.querySelectorAll('.list');
+        let itembox = document.querySelectorAll('.itembox');
+    
+        for (let i = 0; i<list.length; i++){
+            list[i].addEventListener('click', function(){
+                for (let j = 0; j<list.length; j++){
+                    list[j].classList.remove('active');
+                }
+                this.classList.add('active');
+    
+                let dataFilter = this.getAttribute('data-filter');
+    
+                for (let k = 0; k<itembox.length; k++){
+                    itembox[k].classList.remove('active');
+                    itembox[k].classList.add('hide');
+    
+                    if(itembox[k].getAttribute('data-item') == dataFilter || dataFilter == 'all'){
+                        itembox[k].classList.remove('hide');
+                        itembox[k].classList.add('active');
+                    }
+                }
+            })
+        }
+    </script>
+
+    <!------------------------------------------------------>
+
+    
+    
+
+
+   <!--------------------------------------------------------------------------->
+
+   <section class="deal" id="deal">
+    <h1 class="heading"><span>Best Deals</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/deal1.jpg">
+            <div class="content">
+                <h3>Latest Laptop</h3>
+                <p>upto 25% off on first purchase</p>
+                <a href="#"><button class="btn">Explore</button></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/deal2.jpg">
+            <div class="content">
+                <h3>New Headphone</h3>
+                <p>upto 25% off on first purchase</p>
+                <a href="#"><button class="btn">Explore</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="icons-container">
+        <div class="icons">
+            <i class="fas fa-shipping-fast"></i>
+            <h3>Fast Delivery</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt culpa provident? Iusto?</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-user-clock"></i>
+            <h3>24 * 7 Support</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt culpa provident? Iusto?</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-money-check"></i>
+            <h3>Easy Payment</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt culpa provident? Iusto?</p>
+        </div>
+        <div class="icons">
+            <i class="fas fa-box"></i>
+            <h3>10 Days Replacement</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis deserunt culpa provident? Iusto?</p>
+        </div>
+    </div>
+   </section>
+
+   <!--------------------------------------------------------->
+
+   <section class="newsletter">
+
+    <h1>Newsletter</h1>
+    <p>Get in Touch Latest Discounts & Updates</p>
+
+    <form action="">
+        <input type="email" placeholder="email address">
+        <input type="submit" class="btn" value="Submit">
+    </form>
+</section>
+   <!------------------------------------------------------->
+
+   <section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="logo"><i class="fa solid fa-shopping-bag"></i> Shopping</a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aliquid cumque molestias architecto delectus dolore!
+                Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p>
+        </div>
+
+        <div class="box">
+            <h3>Links</h3>
+            <a href="#home"> Home</a>
+            <a href="#arrival"> Arrival</a>
+            <a href="#featured"> Featured</a>
+            <a href="#gallery"> Gallery</a>
+            <a href="#deal"> Deal</a>
+        </div>
+        <div class="box">
+            <h3>Contact Us</h3>
+            <p> <i class="fas fa-home"></i>
+                Dhaka,Bangladesh
+            </p>
+            <p> <i class="fas fa-phone"></i>
+                +58786254125
+            </p>
+            <p> <i class="fas fa-envelope"></i>
+                example@gmail.com
+            </p>
+        </div>
+    </div>
+    <h1 class="credit">CopyRight 2022 | All Rights Reserved</h1>
+   </section>
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------------------------------>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script><!------jquery cdn---->
+    <!---------------------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script><!------jquery cdn---->
+    <!-------------------------------------->
+    <script src="main.js"></script>
+</body>
+</html>
